@@ -1,0 +1,160 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-white: #ffffff;
+  --color-primary-golub: #2b7fff;
+  --color-primary-blue: #011c44;
+  --color-secondary-black: #4a4a4a;
+  --color-secondary-purple: #747272;
+  --color-secondary-blue: #011f4a;
+  --color-secondary-yelow: #ffd02b;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/*body*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/*button*/
+.button {
+  color: var(--color-primary-white);
+  font-weight: 600;
+  background-color: var(--color-primary-golub);
+  border: solid var(--color-primary-golub);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-blue);
+  background-color: transparent;
+  border: 2px solid var(--color-primary-golub);
+}
+
+/*hero*/
+.hero-title {
+  color: var(--color-primary-golub);
+  font-family: "Play", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+h2 {
+  color: var(--color-primary-blue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.hero-span {
+  color: var(--color-primary-golub);
+  text-transform: capitalize;
+}
+
+.double-span {
+  color: var(--color-primary-golub);
+}
+
+/*paragrafs*/
+.hero-paragraf {
+  color: var(--color-primary-blue);
+}
+
+.button-paragraf {
+  color: var(--color-secondary-black);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.history-paragraf {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.span-paragraf {
+  color: var(--color-primary-blue);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.why-class {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.mascks {
+  font-size: 22px;
+}
+
+/*link*/
+.link-header {
+  color: var(--color-primary-blue);
+  text-decoration: none;
+}
+
+.link-header:hover {
+  color: var(--color-primary-golub);
+  font-weight: 700;
+}
+
+.link-footer {
+  font-size: 16px;
+  color: var(--color-primary-white);
+  text-decoration: none;
+}
+
+/*adress*/
+.address-link {
+  font-size: 16px;
+  color: var(--color-primary-white);
+  text-decoration: none;
+}
+
+.address-copyright {
+  font-size: 13px;
+  color: var(--color-secondary-purple);
+}
